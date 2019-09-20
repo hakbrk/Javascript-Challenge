@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>UFO Finder</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" id="home" href="index.html">UFO Sightings
+                    <img class="nav-ufo" src="static/images/ufo.svg">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    <div class="hero text-center">
+        <h1>UFO Sightings</h1>
+        <p>The Truth is Out There</p>
+    </div>
+<div class="container">
+    <div class="row margin-top-30">
+        <h2>Filter Table</h2>
+    <div class="container-fluid">
+    <div class="col-lg">
+    <table id="ufo-table" class = "table-striped">
+        <thead>
+            <tr>
+                <th class="table-head">Date</th>
+                <th class="table-head">City</th>
+                <th class="table-head">State</th>
+                <th class="table-head">Country</th>
+                <th class="table-head">Shape</th>
+                <th class="table-head">Duration</th>
+                <th class="table-head">Comments</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    </div>
+    </div>
+    </div>
+</div>
+</div>
+<script src="tablefilter/tablefilter.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+<script src="static/js/data.js"></script>
+<script src="static/js/app.js"></script>    
+</body>
+</html>
